@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "case_000",
+    "question_en": "My father, 72, suddenly collapsed, is not breathing normally and does not respond to us. What should we do?",
+    "nts_code": "U0",
+    "split": "train",
+    "output_en": {
+      "triage": "Immediate resuscitation context (no effective breathing, circulation or consciousness).",
+      "rationale": "Sudden collapse with absent normal breathing and no response indicates cardiac arrest with failure of ABCD.",
+      "advice": "Immediately call emergency services (112) and start chest compressions according to CPR instructions."
+    }
+  },
+  {
+    "id": "case_001",
+    "question_en": "A man at the gym just fell to the ground, is gasping irregularly and does not wake up when we shake him. Is this an emergency?",
+    "nts_code": "U0",
+    "split": "train",
+    "output_en": {
+      "triage": "Immediate resuscitation context (no effective breathing, circulation or consciousness).",
+      "rationale": "Agonal gasps with unconsciousness after sudden collapse are typical of cardiac arrest and require resuscitation.",
+      "advice": "Call emergency services (112) right away and begin CPR while awaiting professional help."
+    }
+  },
+  {
+    "id": "case_002",
+    "question_en": "My baby suddenly became limp, is not breathing and looks blue around the lips. What should I do right now?",
+    "nts_code": "U0",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate resuscitation context (no effective breathing, circulation or consciousness).",
+      "rationale": "Absent breathing, cyanosis and limp unresponsiveness in an infant indicate failure of breathing and circulation.",
+      "advice": "Call emergency services (112) immediately and start basic life support for infants as instructed by the operator."
+    }
+  },
+  {
+    "id": "case_003",
+    "question_en": "My husband suddenly has weakness in his right arm and his speech is slurred for about 15 minutes now. Is this an emergency?",
+    "nts_code": "U1",
+    "split": "train",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Acute onset of focal neurological deficits suggests stroke with imminent risk of permanent brain damage.",
+      "advice": "Call emergency services (112) immediately and do not wait to see if symptoms improve."
+    }
+  },
+  {
+    "id": "case_004",
+    "question_en": "I have had sudden severe chest pain for 20 minutes with shortness of breath and sweating. I am 63 with high blood pressure. Is this urgent?",
+    "nts_code": "U1",
+    "split": "train",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Prolonged severe chest pain with shortness of breath and risk factors strongly suggests acute coronary syndrome.",
+      "advice": "Call emergency services (112) right away; do not attempt to drive yourself to the hospital."
+    }
+  },
+  {
+    "id": "case_005",
+    "question_en": "My 4-year-old is wheezing badly, breathing very fast and pulling with the chest muscles. Her lips look a bit blue. What should I do?",
+    "nts_code": "U1",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Severe respiratory distress with cyanosis indicates unstable breathing and imminent respiratory failure.",
+      "advice": "Call emergency services (112) immediately and keep the child upright and calm while waiting."
+    }
+  },
+  {
+    "id": "case_006",
+    "question_en": "I accidentally took a large overdose of my insulin and now I feel dizzy, sweaty and confused. Is this directly dangerous?",
+    "nts_code": "U1",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Insulin overdose with neuroglycopenic symptoms can rapidly progress to coma and unstable ABCD.",
+      "advice": "Call emergency services (112) immediately; if still conscious, take fast-acting carbohydrates while waiting and do not stay alone."
+    }
+  },
+  {
+    "id": "case_007",
+    "question_en": "My pregnant wife, 34 weeks, suddenly has heavy vaginal bleeding and strong abdominal pain. Is this an emergency situation?",
+    "nts_code": "U1",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Heavy bleeding and pain in late pregnancy may indicate placental abruption or other life-threatening obstetric emergencies.",
+      "advice": "Call emergency services (112) immediately and keep her lying on her left side while waiting."
+    }
+  },
+  {
+    "id": "case_008",
+    "question_en": "My grandfather with COPD is suddenly extremely short of breath, can hardly speak and looks very pale. Should we call an ambulance?",
+    "nts_code": "U1",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Severe shortness of breath with inability to speak full sentences suggests respiratory failure with unstable breathing.",
+      "advice": "Call emergency services (112) immediately and have him sit upright while help is on the way."
+    }
+  },
+  {
+    "id": "case_009",
+    "question_en": "My 10-year-old was stung by a wasp and within minutes developed swelling of the face, hives and trouble breathing. Is this life-threatening?",
+    "nts_code": "U1",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Rapid airway swelling and dyspnoea after a sting indicate anaphylaxis with threatened airway and circulation.",
+      "advice": "Call emergency services (112) immediately; if available, administer a prescribed adrenaline auto-injector while waiting."
+    }
+  },
+  {
+    "id": "case_010",
+    "question_en": "Since this morning I have had severe abdominal pain on the right lower side and a bit of fever. It hurts to walk. Should I see a doctor today?",
+    "nts_code": "U2",
+    "split": "train",
+    "output_en": {
+      "triage": "Serious risk of deterioration or organ damage; evaluation as soon as possible.",
+      "rationale": "Acute localized abdominal pain with fever and guarding suggests appendicitis and risk of perforation if untreated.",
+      "advice": "Contact the GP practice urgently for same-day assessment and avoid eating or drinking large amounts until seen."
+    }
+  },
+  {
+    "id": "case_011",
+    "question_en": "My 7-year-old has had high fever for two days and is now very listless and hardly drinking. Is this very urgent?",
+    "nts_code": "U2",
+    "split": "train",
+    "output_en": {
+      "triage": "Serious risk of deterioration or organ damage; evaluation as soon as possible.",
+      "rationale": "High fever with lethargy and poor drinking in a child suggests serious infection and risk of dehydration.",
+      "advice": "Call the GP urgently for same-day assessment; if the child becomes very drowsy or difficult to wake, call emergency services."
+    }
+  },
+  {
+    "id": "case_012",
+    "question_en": "I suddenly have strong pain and swelling in my calf after a long flight, and it feels warm. Should I be concerned?",
+    "nts_code": "U2",
+    "split": "eval",
+    "output_en": {
+      "triage": "Serious risk of deterioration or organ damage; evaluation as soon as possible.",
+      "rationale": "Acute unilateral calf swelling and pain after immobility is suggestive of deep vein thrombosis with risk of pulmonary embolism.",
+      "advice": "Contact the GP urgently for same-day evaluation; avoid long walking until assessed."
+    }
+  },
+  {
+    "id": "case_013",
+    "question_en": "My vision in one eye suddenly became very blurry over the last hour without pain. Is this something that needs quick attention?",
+    "nts_code": "U2",
+    "split": "eval",
+    "output_en": {
+      "triage": "Serious risk of deterioration or organ damage; evaluation as soon as possible.",
+      "rationale": "Sudden visual loss in one eye may indicate retinal or vascular pathology threatening permanent vision loss.",
+      "advice": "Contact the GP practice urgently for immediate assessment and likely referral to an eye specialist."
+    }
+  },
+  {
+    "id": "case_014",
+    "question_en": "For a few hours I have had severe flank pain on the right side, radiating to the groin, and I feel nauseous. Is this something that should be checked today?",
+    "nts_code": "U2",
+    "split": "eval",
+    "output_en": {
+      "triage": "Serious risk of deterioration or organ damage; evaluation as soon as possible.",
+      "rationale": "Acute colicky flank pain with nausea suggests renal colic or other acute abdominal pathology that may require urgent intervention.",
+      "advice": "Contact the GP urgently for same-day assessment; seek emergency care if pain becomes unbearable or vomiting is continuous."
+    }
+  },
+  {
+    "id": "case_015",
+    "question_en": "My 3-year-old has been crying with ear pain and high fever for several hours and seems very miserable. Do we need to see a doctor soon?",
+    "nts_code": "U3",
+    "split": "train",
+    "output_en": {
+      "triage": "Relevant medical risk or strong humane reasons; evaluation within hours.",
+      "rationale": "Severe ear pain with high fever and distress may indicate acute otitis media requiring evaluation and sometimes antibiotics.",
+      "advice": "Contact the GP for a same-day appointment; give paracetamol according to weight until seen."
+    }
+  },
+  {
+    "id": "case_016",
+    "question_en": "Since yesterday evening I have pain when urinating, I need to go very often and there is some blood in my urine. Do I need to contact a doctor urgently?",
+    "nts_code": "U3",
+    "split": "train",
+    "output_en": {
+      "triage": "Relevant medical risk or strong humane reasons; evaluation within hours.",
+      "rationale": "Painful urination with visible blood suggests urinary tract infection or other pathology that should be evaluated the same day.",
+      "advice": "Contact the GP today for assessment and urine testing; drink adequately while waiting."
+    }
+  },
+  {
+    "id": "case_017",
+    "question_en": "I have had a very painful, red and swollen big toe joint since this morning and can hardly walk. Could this be urgent?",
+    "nts_code": "U3",
+    "split": "eval",
+    "output_en": {
+      "triage": "Relevant medical risk or strong humane reasons; evaluation within hours.",
+      "rationale": "Acute red, swollen joint with severe pain requires evaluation for gout or septic arthritis to prevent joint damage.",
+      "advice": "Call the GP for an appointment within a few hours and avoid putting weight on the foot as much as possible."
+    }
+  },
+  {
+    "id": "case_018",
+    "question_en": "My mother, 80, has been confused since this morning and is not acting like herself. She had a slight fever last night. Is this urgent?",
+    "nts_code": "U3",
+    "split": "eval",
+    "output_en": {
+      "triage": "Relevant medical risk or strong humane reasons; evaluation within hours.",
+      "rationale": "Acute confusion in an elderly patient may indicate infection, metabolic disturbance or neurological disease and needs timely evaluation.",
+      "advice": "Contact the GP practice urgently today; if she becomes very drowsy or difficult to rouse, call emergency services."
+    }
+  },
+  {
+    "id": "case_019",
+    "question_en": "For two days I have had severe pain and swelling around a tooth with some facial swelling and difficulty opening my mouth fully. Should I be seen today?",
+    "nts_code": "U3",
+    "split": "eval",
+    "output_en": {
+      "triage": "Relevant medical risk or strong humane reasons; evaluation within hours.",
+      "rationale": "Severe dental infection with swelling and trismus may spread and compromise the airway if not treated promptly.",
+      "advice": "Contact a dentist or GP urgently for same-day evaluation; if swelling rapidly increases or breathing becomes difficult, seek emergency care."
+    }
+  },
+  {
+    "id": "case_020",
+    "question_en": "For three days I have had a sore throat and a bit of fever, but I can swallow and breathe fine. I am 79. Would this usually be non-urgent?",
+    "nts_code": "U4",
+    "split": "train",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Uncomplicated sore throat without red flags is usually self-limiting, but older age justifies GP assessment if it persists.",
+      "advice": "Use pain relief and fluids; contact the GP within a day if symptoms persist or worsen, or sooner if new red flags arise."
+    }
+  },
+  {
+    "id": "case_021",
+    "question_en": "I have had a dry cough for about a week but no fever or shortness of breath. I feel fine otherwise. Do I need to see the doctor soon?",
+    "nts_code": "U4",
+    "split": "train",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Isolated cough without fever, dyspnoea or systemic illness usually indicates a mild respiratory infection.",
+      "advice": "Self-care with fluids and possibly cough remedies is appropriate; schedule GP contact if it persists beyond a few weeks or new symptoms develop."
+    }
+  },
+  {
+    "id": "case_022",
+    "question_en": "For five days I have had pain in my knee after twisting it, but I can still walk, although it hurts. Is this urgent?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Knee pain after minor twisting injury without inability to bear weight or deformity is unlikely to require immediate intervention.",
+      "advice": "Use rest, ice and pain relief; contact the GP within a few days if pain persists, worsens or locking or instability occurs."
+    }
+  },
+  {
+    "id": "case_023",
+    "question_en": "My 6-year-old has had an itchy rash on both arms for two days but no fever or illness. Does this need to be seen today?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Localized itchy rash without systemic signs is usually benign, such as eczema or contact dermatitis.",
+      "advice": "Apply a mild emollient; contact the GP within the next day or two if the rash spreads, becomes painful or the child feels ill."
+    }
+  },
+  {
+    "id": "case_024",
+    "question_en": "For two weeks I have had intermittent heartburn after meals but no chest pain at rest or breathing problems. Should I talk to my GP?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Typical heartburn without alarm symptoms usually indicates gastro-oesophageal reflux that can be discussed non-urgently.",
+      "advice": "Try lifestyle measures and antacids; arrange a GP visit if symptoms persist, worsen or are accompanied by weight loss or swallowing problems."
+    }
+  },
+  {
+    "id": "case_025",
+    "question_en": "I have had a blocked and runny nose with sneezing for three days, but no fever and I feel okay. Is this just self-care?",
+    "nts_code": "U5",
+    "split": "train",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Short-duration nasal congestion and sneezing without systemic illness is typical of a common cold.",
+      "advice": "Use nasal saline or over-the-counter remedies, rest and fluids; contact the GP if symptoms persist longer than expected or new red flags occur."
+    }
+  },
+  {
+    "id": "case_026",
+    "question_en": "Yesterday I twisted my ankle while walking. It is swollen and a bit painful, but I can still walk on it. Do I need to see a doctor?",
+    "nts_code": "U5",
+    "split": "train",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Mild ankle sprains with preserved ability to bear weight usually heal with conservative treatment.",
+      "advice": "Use rest, ice, compression and elevation; seek GP care if pain or swelling worsens or walking becomes impossible."
+    }
+  },
+  {
+    "id": "case_027",
+    "question_en": "For a few days I have had a mild tension headache that improves with paracetamol. I have no fever or neurological symptoms. Is this something to worry about?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Mild, responsive headache without alarm symptoms is usually benign tension headache.",
+      "advice": "Continue simple pain relief and rest; see your GP if headaches become more frequent, severe or are accompanied by other concerning symptoms."
+    }
+  },
+  {
+    "id": "case_028",
+    "question_en": "My child, 8, has a small itchy insect bite on the leg with a red area of about 2 cm, no fever. Does this need a doctor?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Small local reactions to insect bites without systemic illness are harmless and settle spontaneously.",
+      "advice": "Use a cool compress and possibly an antihistamine cream; contact the GP if redness rapidly expands, the child becomes ill or breathing problems occur."
+    }
+  },
+  {
+    "id": "case_029",
+    "question_en": "For two days I have had mild diarrhoea but no blood in the stool, no fever and I can drink normally. Is this something I can manage myself?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Short-lasting mild diarrhoea without blood, fever or dehydration is usually a self-limiting infection.",
+      "advice": "Drink enough fluids and consider oral rehydration solution; contact the GP if diarrhoea lasts longer than a week, worsens or blood appears."
+    }
+  },
+  {
+    "id": "case_030",
+    "question_en": "My neighbour, 68, suddenly collapsed and is breathing but very shallow and not responding properly after a fall down the stairs. What should we do?",
+    "nts_code": "U1",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Reduced consciousness and shallow breathing after major trauma indicate unstable ABCD and possible head or spinal injury.",
+      "advice": "Call emergency services (112) immediately, do not move the person unnecessarily and follow the operator's instructions."
+    }
+  },
+  {
+    "id": "case_031",
+    "question_en": "My father with known heart failure suddenly gained a lot of weight over a few days and is now very short of breath at rest. Is this an emergency?",
+    "nts_code": "U1",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Rapid weight gain and severe dyspnoea at rest in heart failure suggest pulmonary oedema and unstable breathing and circulation.",
+      "advice": "Call emergency services (112) immediately; have him sit upright while waiting for the ambulance."
+    }
+  },
+  {
+    "id": "case_032",
+    "question_en": "My 2-year-old suddenly has a high-pitched stridor and great difficulty breathing after putting something in the mouth. Is this life-threatening?",
+    "nts_code": "U1",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Acute stridor and breathing difficulty after possible aspiration indicate airway obstruction and risk of complete blockage.",
+      "advice": "Call emergency services (112) immediately and follow their guidance on possible first aid manoeuvres."
+    }
+  },
+  {
+    "id": "case_033",
+    "question_en": "My relative with diabetes is now drowsy, has fast breathing and smells of acetone. He has been unwell for a couple of days. Is this an emergency?",
+    "nts_code": "U1",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Drowsiness, Kussmaul breathing and acetone smell indicate diabetic ketoacidosis with metabolic acidosis and risk of collapse.",
+      "advice": "Call emergency services (112) immediately; do not leave the person alone and monitor breathing while waiting."
+    }
+  },
+  {
+    "id": "case_034",
+    "question_en": "My 5-year-old has a very stiff neck, high fever and seems very ill and sensitive to light. Is this extremely urgent?",
+    "nts_code": "U1",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Neck stiffness, high fever and photophobia in an ill child suggest meningitis with risk of rapid deterioration.",
+      "advice": "Call emergency services (112) immediately and keep the child comfortable while waiting."
+    }
+  },
+  {
+    "id": "case_035",
+    "question_en": "For one day I have had burning chest pain when I breathe deeply after a long car ride, and I feel a bit short of breath. Should I be seen quickly?",
+    "nts_code": "U2",
+    "split": "eval",
+    "output_en": {
+      "triage": "Serious risk of deterioration or organ damage; evaluation as soon as possible.",
+      "rationale": "Pleuritic chest pain and dyspnoea after prolonged immobility raise concern for pulmonary embolism.",
+      "advice": "Contact the GP urgently for same-day assessment; if shortness of breath rapidly worsens, call emergency services."
+    }
+  },
+  {
+    "id": "case_036",
+    "question_en": "My father, 74, has had a fever for three days, is coughing up green sputum and is now breathing faster than normal. Is this urgent?",
+    "nts_code": "U2",
+    "split": "eval",
+    "output_en": {
+      "triage": "Serious risk of deterioration or organ damage; evaluation as soon as possible.",
+      "rationale": "Fever, productive cough and tachypnoea in an older adult suggest pneumonia, which can progress quickly.",
+      "advice": "Contact the GP practice urgently today; if he becomes very short of breath or confused, call emergency services."
+    }
+  },
+  {
+    "id": "case_037",
+    "question_en": "I am 30 weeks pregnant and have had a headache and visual disturbances with some upper abdominal pain since this afternoon. Is this serious?",
+    "nts_code": "U2",
+    "split": "eval",
+    "output_en": {
+      "triage": "Serious risk of deterioration or organ damage; evaluation as soon as possible.",
+      "rationale": "Headache, visual symptoms and epigastric pain in late pregnancy may indicate preeclampsia with risk to mother and fetus.",
+      "advice": "Contact your midwife or GP urgently for same-day evaluation; if severe headache or visual loss occurs, call emergency services."
+    }
+  },
+  {
+    "id": "case_038",
+    "question_en": "Since yesterday I have intense pain and swelling in the scrotum with fever and feel quite sick. Do I need to be seen urgently?",
+    "nts_code": "U2",
+    "split": "eval",
+    "output_en": {
+      "triage": "Serious risk of deterioration or organ damage; evaluation as soon as possible.",
+      "rationale": "Acute scrotal pain and swelling with systemic symptoms can indicate torsion or severe infection with risk of organ damage.",
+      "advice": "Contact the GP urgently for immediate assessment; if pain is sudden and severe, seek emergency evaluation."
+    }
+  },
+  {
+    "id": "case_039",
+    "question_en": "My 10-year-old has had abdominal pain, vomiting and fever since last night and now lies very still because moving hurts. Is this urgent?",
+    "nts_code": "U2",
+    "split": "eval",
+    "output_en": {
+      "triage": "Serious risk of deterioration or organ damage; evaluation as soon as possible.",
+      "rationale": "Abdominal pain with vomiting, fever and reluctance to move suggests a possible acute abdomen such as appendicitis.",
+      "advice": "Contact the GP urgently today and avoid giving large meals until seen."
+    }
+  },
+  {
+    "id": "case_040",
+    "question_en": "I have had a painful, red and warm area on my lower leg for a day, which is slowly expanding. I feel a bit feverish. Should I call the doctor today?",
+    "nts_code": "U3",
+    "split": "eval",
+    "output_en": {
+      "triage": "Relevant medical risk or strong humane reasons; evaluation within hours.",
+      "rationale": "Spreading redness and warmth with fever suggests cellulitis requiring prompt antibiotic treatment.",
+      "advice": "Contact the GP today for evaluation; mark the edge of the redness and seek emergency care if fever or spreading worsens rapidly."
+    }
+  },
+  {
+    "id": "case_041",
+    "question_en": "My adolescent son has had suicidal thoughts and says he sometimes thinks about ending his life, although he has no concrete plan. Is this urgent?",
+    "nts_code": "U3",
+    "split": "eval",
+    "output_en": {
+      "triage": "Relevant medical risk or strong humane reasons; evaluation within hours.",
+      "rationale": "Suicidal thoughts represent a significant risk of self-harm even without a concrete plan and require timely professional assessment.",
+      "advice": "Contact the GP or mental health services today, ensure he is not left alone, and seek emergency help if risk escalates."
+    }
+  },
+  {
+    "id": "case_042",
+    "question_en": "For a few hours I have had an increasingly painful, red eye with blurred vision and halos around lights. Is this urgent?",
+    "nts_code": "U3",
+    "split": "eval",
+    "output_en": {
+      "triage": "Relevant medical risk or strong humane reasons; evaluation within hours.",
+      "rationale": "Painful red eye with visual disturbances and halos may indicate acute glaucoma or uveitis with risk of vision loss.",
+      "advice": "Contact the GP or eye specialist urgently for same-day examination; avoid driving yourself if vision is impaired."
+    }
+  },
+  {
+    "id": "case_043",
+    "question_en": "My 1-year-old has had a fever since this morning, is a bit less active but still drinks and plays sometimes. Is this very urgent?",
+    "nts_code": "U3",
+    "split": "eval",
+    "output_en": {
+      "triage": "Relevant medical risk or strong humane reasons; evaluation within hours.",
+      "rationale": "Young age with fever warrants relatively prompt assessment, even if some behaviour is reassuring.",
+      "advice": "Monitor closely, give paracetamol as needed, and contact the GP the same day if fever persists or behaviour worsens."
+    }
+  },
+  {
+    "id": "case_044",
+    "question_en": "For four days I have had pain when urinating and needing to go often, but no fever or flank pain. Is this something that can wait a day?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Dysuria and frequency without fever or flank pain suggest lower urinary tract infection, which is unpleasant but not immediately dangerous.",
+      "advice": "Increase fluid intake and arrange a GP appointment for urine testing and possible antibiotics within a day."
+    }
+  },
+  {
+    "id": "case_045",
+    "question_en": "I have had mild pain in my lower back for a week after lifting something heavy, but no numbness or bladder problems. Is this urgent?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Mechanical low back pain without neurological signs or red flags is usually benign and can be assessed non-urgently.",
+      "advice": "Use simple analgesia and remain active as tolerated; see your GP if pain persists beyond a few weeks or new symptoms arise."
+    }
+  },
+  {
+    "id": "case_046",
+    "question_en": "For about a month I have had itching between my toes with some scaling of the skin. I feel fine otherwise. Do I need a doctor?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Chronic localized itching and scaling is consistent with athlete's foot and is not dangerous.",
+      "advice": "Over-the-counter antifungal cream may be tried; see a GP if it does not improve or spreads."
+    }
+  },
+  {
+    "id": "case_047",
+    "question_en": "I often feel tired over the last two months, but I sleep reasonably well and have no pain or other symptoms. Is this urgent?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Chronic fatigue without acute illness or focal symptoms is unlikely to represent immediate harm but should be explored.",
+      "advice": "Plan a non-urgent consultation with your GP to discuss fatigue, lifestyle and possible investigations."
+    }
+  },
+  {
+    "id": "case_048",
+    "question_en": "For several months I have been waking up at night to urinate two or three times, but I have no pain or fever. Should I talk to my GP?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Chronic nocturia without pain or systemic illness is not immediately dangerous but may reflect underlying conditions.",
+      "advice": "Make a routine appointment with your GP to discuss urinary symptoms and possible causes."
+    }
+  },
+  {
+    "id": "case_049",
+    "question_en": "For one day I have had a mild sore throat and runny nose, but no fever and I can eat and drink normally. Is this just a cold?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Short-duration mild sore throat and runny nose without systemic symptoms are typical for a common cold.",
+      "advice": "Use fluids, rest and possibly lozenges; contact the GP if symptoms last longer than expected or worsen significantly."
+    }
+  },
+  {
+    "id": "case_050",
+    "question_en": "I have had mild stomach cramps and a bit of loose stool since yesterday evening after eating out, but I am not vomiting and can drink. Is this something to manage myself?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Mild gastrointestinal symptoms after a meal without systemic signs usually resolve spontaneously.",
+      "advice": "Drink enough fluids, avoid heavy meals and observe; contact the GP if symptoms worsen, persist or there is blood in the stool."
+    }
+  },
+  {
+    "id": "case_051",
+    "question_en": "My 10-year-old has had a dry cough mainly at night for three days but no fever or breathing difficulty. Is this urgent?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Short-duration cough without fever or dyspnoea is usually a mild viral infection.",
+      "advice": "Use fluids and honey (if older than 1 year); see the GP if cough persists longer than a few weeks or breathing problems develop."
+    }
+  },
+  {
+    "id": "case_052",
+    "question_en": "For two days I have had some muscle aches after starting a new workout routine, but no fever or other symptoms. Should I be worried?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Delayed onset muscle soreness after increased activity is common and harmless.",
+      "advice": "Use rest, gentle stretching and simple pain relief; consult a GP if pain is severe, persistent or associated with dark urine or weakness."
+    }
+  },
+  {
+    "id": "case_053",
+    "question_en": "I occasionally have brief palpitations that last a few seconds and then go away. I feel fine otherwise. Is this urgent?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Brief, infrequent palpitations in an otherwise well person are often benign.",
+      "advice": "Reduce caffeine and stress; mention it at your next routine GP visit or sooner if palpitations become frequent, prolonged or cause dizziness."
+    }
+  },
+  {
+    "id": "case_054",
+    "question_en": "My child, 4, has a small wart on the finger for a few weeks but no pain or other problems. Do we need to see a doctor?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Isolated, asymptomatic wart is benign and not urgent.",
+      "advice": "You may try over-the-counter wart treatment; if bothersome or persistent, discuss with the GP at a routine visit."
+    }
+  },
+  {
+    "id": "case_055",
+    "question_en": "My 70-year-old mother suddenly has very unequal pupils and is very sleepy after a car accident. Is this extremely urgent?",
+    "nts_code": "U1",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Unequal pupils and reduced consciousness after trauma indicate severe brain injury and unstable neurological status.",
+      "advice": "Call emergency services (112) immediately; keep her still and monitor breathing while waiting."
+    }
+  },
+  {
+    "id": "case_056",
+    "question_en": "My partner suddenly cannot breathe well after eating peanuts and her lips are swelling rapidly. Is this life-threatening?",
+    "nts_code": "U1",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Rapid airway swelling and breathing difficulty after allergen exposure indicate anaphylactic shock risk.",
+      "advice": "Call emergency services (112) immediately; if available, use an adrenaline auto-injector as prescribed."
+    }
+  },
+  {
+    "id": "case_057",
+    "question_en": "My grandfather, who is on blood thinners, has passed a large amount of fresh red blood in the stool and feels dizzy. Is this an emergency?",
+    "nts_code": "U1",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Significant bleeding with dizziness in a patient on anticoagulants indicates risk of shock and unstable circulation.",
+      "advice": "Call emergency services (112) immediately and have him lie down with legs slightly elevated while waiting."
+    }
+  },
+  {
+    "id": "case_058",
+    "question_en": "For half an hour I have had crushing chest pain radiating to my left arm and jaw, with nausea and sweating. Is this an emergency?",
+    "nts_code": "U1",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Crushing chest pain radiating to arm and jaw with autonomic symptoms strongly suggests heart attack.",
+      "advice": "Call emergency services (112) immediately; do not delay or drive yourself."
+    }
+  },
+  {
+    "id": "case_059",
+    "question_en": "My brother suddenly cannot move his left leg and has drooping on one side of his face. It started 20 minutes ago. Is this extremely urgent?",
+    "nts_code": "U1",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Sudden focal neurological signs indicate stroke with a very narrow treatment window.",
+      "advice": "Call emergency services (112) at once and note the exact time symptoms started."
+    }
+  },
+  {
+    "id": "case_060",
+    "question_en": "For a few hours I have had cramping pain in the lower abdomen with vaginal bleeding in early pregnancy (8 weeks). I feel a bit dizzy. Is this urgent?",
+    "nts_code": "U2",
+    "split": "eval",
+    "output_en": {
+      "triage": "Serious risk of deterioration or organ damage; evaluation as soon as possible.",
+      "rationale": "Bleeding with pain in early pregnancy may indicate threatened miscarriage or ectopic pregnancy.",
+      "advice": "Contact your GP or midwife urgently today; if pain or dizziness worsens, seek emergency care."
+    }
+  },
+  {
+    "id": "case_061",
+    "question_en": "My 9-year-old has had fever for three days and now complains of pain in the right side of the chest when breathing, with rapid breathing. Is this urgent?",
+    "nts_code": "U2",
+    "split": "eval",
+    "output_en": {
+      "triage": "Serious risk of deterioration or organ damage; evaluation as soon as possible.",
+      "rationale": "Fever, chest pain and rapid breathing suggest possible pneumonia or pleural involvement.",
+      "advice": "Contact the GP urgently today; if breathing becomes very laboured, call emergency services."
+    }
+  },
+  {
+    "id": "case_062",
+    "question_en": "Since this morning I have had severe pain and redness in one eye after grinding metal without eye protection. My vision is blurry. Is this urgent?",
+    "nts_code": "U2",
+    "split": "eval",
+    "output_en": {
+      "triage": "Serious risk of deterioration or organ damage; evaluation as soon as possible.",
+      "rationale": "Eye trauma with pain and blurred vision requires prompt evaluation to prevent permanent damage.",
+      "advice": "Contact the GP or emergency eye service urgently; do not rub the eye."
+    }
+  },
+  {
+    "id": "case_063",
+    "question_en": "My child, 5, has had a fever and is pulling at the ear with crying for several hours. He drinks less but still pees. Is this urgent?",
+    "nts_code": "U3",
+    "split": "eval",
+    "output_en": {
+      "triage": "Relevant medical risk or strong humane reasons; evaluation within hours.",
+      "rationale": "Acute otitis media with significant discomfort warrants timely evaluation and pain management.",
+      "advice": "Give paracetamol and contact the GP the same day; if the child becomes very drowsy or develops neck stiffness, seek emergency care."
+    }
+  },
+  {
+    "id": "case_064",
+    "question_en": "For one day I have had a painful, red and warm finger with a small collection of pus near the nail. Do I need to see the GP today?",
+    "nts_code": "U3",
+    "split": "eval",
+    "output_en": {
+      "triage": "Relevant medical risk or strong humane reasons; evaluation within hours.",
+      "rationale": "Local finger infection with pus may need drainage to prevent spread.",
+      "advice": "Contact the GP today for assessment; keep the finger clean and avoid pressure until then."
+    }
+  },
+  {
+    "id": "case_065",
+    "question_en": "My grandfather has suddenly become more confused today and is not taking his medication properly. He has no fever. Is this urgent?",
+    "nts_code": "U3",
+    "split": "eval",
+    "output_en": {
+      "triage": "Relevant medical risk or strong humane reasons; evaluation within hours.",
+      "rationale": "Acute confusion in an elderly person can indicate infection, metabolic issues or medication problems with risk of harm.",
+      "advice": "Contact the GP today and ensure he is supervised; seek emergency help if he becomes very drowsy or unresponsive."
+    }
+  },
+  {
+    "id": "case_066",
+    "question_en": "For two days my 15-year-old daughter has had severe abdominal pain during menstruation, worse than normal, but she has no fever or vomiting. Is this urgent?",
+    "nts_code": "U3",
+    "split": "eval",
+    "output_en": {
+      "triage": "Relevant medical risk or strong humane reasons; evaluation within hours.",
+      "rationale": "Very severe menstrual pain can be distressing and may require evaluation and treatment, though not usually life-threatening.",
+      "advice": "Give appropriate pain relief and arrange a GP appointment within the same day or next morning if pain remains severe."
+    }
+  },
+  {
+    "id": "case_067",
+    "question_en": "For a week I have had mild pain and stiffness in my shoulder especially in the morning, but it improves during the day. Is this urgent?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Subacute joint symptoms without red flags can be assessed in a routine appointment.",
+      "advice": "Use gentle exercises and pain relief; see your GP if symptoms persist or worsen."
+    }
+  },
+  {
+    "id": "case_068",
+    "question_en": "For three weeks I have had small amounts of blood on the toilet paper after bowel movements, with some itching. No weight loss or pain. Should I see my GP?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Small amounts of bright red blood on wiping with itching often indicate haemorrhoids, but should be evaluated non-urgently.",
+      "advice": "Increase fibre and fluids; book a routine GP appointment to examine the cause of bleeding."
+    }
+  },
+  {
+    "id": "case_069",
+    "question_en": "For six months I have had occasional heartburn at night, relieved by antacids, with no weight loss or swallowing problems. Is this urgent?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Chronic reflux symptoms without alarm signs can be discussed at routine consultation.",
+      "advice": "Continue lifestyle measures and antacids; arrange a GP visit to review longer-term management."
+    }
+  },
+  {
+    "id": "case_070",
+    "question_en": "I have had a small lump under the skin on my back for months that hasn't changed and does not hurt. Do I need to see a doctor soon?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "A small, unchanged, painless lump is likely benign but should be assessed at some point.",
+      "advice": "Plan a routine GP appointment; seek earlier review if it grows quickly, becomes painful or the skin changes."
+    }
+  },
+  {
+    "id": "case_071",
+    "question_en": "For one day I have had a stuffy nose and mild sore throat, but I am otherwise fine. Can I just treat this myself?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Very mild and short-lasting symptoms are typical of early common cold.",
+      "advice": "Use fluids and rest; see the GP only if symptoms become severe or persist longer than expected."
+    }
+  },
+  {
+    "id": "case_072",
+    "question_en": "My 7-year-old scraped his knee outside. It is a shallow wound with a bit of dirt, but he is otherwise fine. Do we need a doctor?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Superficial abrasions without deep tissue involvement or heavy contamination can be managed at home.",
+      "advice": "Clean the wound with water, apply a plaster and monitor for signs of infection; contact the GP if redness or pain increases."
+    }
+  },
+  {
+    "id": "case_073",
+    "question_en": "For two days I have had mild itching on my forearms after using a new soap. No swelling or breathing problems. Can I handle this myself?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Mild contact dermatitis without systemic symptoms is not dangerous.",
+      "advice": "Stop using the soap, use an emollient or mild hydrocortisone cream; see the GP if rash persists or worsens."
+    }
+  },
+  {
+    "id": "case_074",
+    "question_en": "Sometimes I feel a brief sharp pain in my chest when I take a deep breath, but it lasts only a second and then disappears. I feel fine otherwise. Is this urgent?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Very brief chest pains without exertional nature or associated symptoms are usually benign musculoskeletal or nerve pains.",
+      "advice": "Observe and mention at a future GP visit; seek urgent help if chest pain becomes prolonged, exertional or associated with breathlessness or sweating."
+    }
+  },
+  {
+    "id": "case_075",
+    "question_en": "My 3-year-old has a small bruise on the leg after bumping into a table, but is walking normally and plays as usual. Is this a reason to see a doctor?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Minor bruises in active children are common and harmless when behaviour is otherwise normal.",
+      "advice": "Apply a cool pack if needed; contact the GP if bruises appear spontaneously or the child seems unwell."
+    }
+  },
+  {
+    "id": "case_076",
+    "question_en": "For two days I have had a gradually appearing red ring around a tick bite from last week, but I feel fine. Is this urgent?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Erythema migrans suggests early Lyme disease, requiring antibiotic treatment but not emergency care.",
+      "advice": "Arrange a GP visit within a few days for diagnosis and treatment."
+    }
+  },
+  {
+    "id": "case_077",
+    "question_en": "For a month I have been more short of breath when climbing stairs, but I have no chest pain or cough. Is this urgently dangerous?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Gradually worsening exertional breathlessness requires investigation but is not typically an immediate emergency.",
+      "advice": "Schedule a GP appointment in the near future; seek urgent help if severe shortness of breath at rest develops."
+    }
+  },
+  {
+    "id": "case_078",
+    "question_en": "For several weeks I have had a dry cough, but I smoke and have no fever or weight loss. Is this something that can wait?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Chronic cough in a smoker requires evaluation but not emergency care if no red flags are present.",
+      "advice": "Arrange a routine GP appointment; consider smoking cessation support."
+    }
+  },
+  {
+    "id": "case_079",
+    "question_en": "My 12-year-old has had mild knee pain after sports for a week, but there is no swelling and he can play. Do we need a doctor?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Mild overuse pain is common in active children and usually not serious.",
+      "advice": "Reduce load, use ice and pain relief; see the GP if pain persists or worsens."
+    }
+  },
+  {
+    "id": "case_080",
+    "question_en": "For one day I have had a fever and sore throat, but I can swallow and have no breathing problems. I am 25 and otherwise healthy. Is this self-care?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Acute sore throat with fever in a young healthy adult is usually a self-limiting infection.",
+      "advice": "Use fluids and pain relief; contact the GP if symptoms last longer than a week, worsen or if swallowing becomes difficult."
+    }
+  },
+  {
+    "id": "case_081",
+    "question_en": "My 16-year-old has mild acne on the face that bothers him, but there is no pain or infection. Is this urgent?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Mild acne is common and not dangerous.",
+      "advice": "Use gentle skin care and over-the-counter treatments; discuss with the GP at a routine visit if distressing."
+    }
+  },
+  {
+    "id": "case_082",
+    "question_en": "Sometimes I feel dizzy when I stand up quickly, but it goes away in seconds. Is this something I should see a doctor for urgently?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Brief lightheadedness on standing is common and not usually harmful.",
+      "advice": "Stand up slowly and drink enough; see your GP if dizziness becomes prolonged, associated with fainting or other symptoms."
+    }
+  },
+  {
+    "id": "case_083",
+    "question_en": "My 5-year-old has had a mild cough and runny nose for four days but is playing and eating normally. Is this just a cold?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Mild respiratory symptoms with preserved play and intake suggest a simple viral infection.",
+      "advice": "Give fluids and paracetamol if needed; call the GP if fever persists beyond a few days or breathing becomes difficult."
+    }
+  },
+  {
+    "id": "case_084",
+    "question_en": "I sometimes feel a bit anxious and get sweaty hands before exams, but it goes away afterwards. Is this a medical emergency?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Situational anxiety without functional impairment or self-harm risk is not an emergency.",
+      "advice": "Use relaxation techniques; talk to your GP later if anxiety significantly interferes with daily life."
+    }
+  },
+  {
+    "id": "case_085",
+    "question_en": "My grandmother, who lives alone, did not answer the phone all day and when we visited she was lying on the floor, awake but confused and unable to get up. Is this urgent?",
+    "nts_code": "U1",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Elderly person found down with confusion may have serious underlying pathology and complications from lying on the floor.",
+      "advice": "Call emergency services (112) immediately for urgent assessment and transport."
+    }
+  },
+  {
+    "id": "case_086",
+    "question_en": "My partner with asthma is having a severe attack, speaking only in single words and using the rescue inhaler without improvement. Is this life-threatening?",
+    "nts_code": "U1",
+    "split": "eval",
+    "output_en": {
+      "triage": "Immediate threat to airway, breathing, circulation or consciousness; direct life-saving action needed.",
+      "rationale": "Inability to speak full sentences despite rescue therapy indicates critical airway obstruction and respiratory failure risk.",
+      "advice": "Call emergency services (112) immediately and have them sit upright; continue using the inhaler as instructed while awaiting ambulance."
+    }
+  },
+  {
+    "id": "case_087",
+    "question_en": "For two days I have had swelling and pain in my calf after a long bus ride, but I have no shortness of breath. Is this something that needs urgent attention?",
+    "nts_code": "U2",
+    "split": "eval",
+    "output_en": {
+      "triage": "Serious risk of deterioration or organ damage; evaluation as soon as possible.",
+      "rationale": "Calf swelling and pain after prolonged sitting can indicate deep venous thrombosis.",
+      "advice": "Contact the GP urgently today; avoid long walking until assessed."
+    }
+  },
+  {
+    "id": "case_088",
+    "question_en": "My 4-year-old has had vomiting and diarrhoea since last night and now has fewer wet nappies, but is still somewhat alert. Is this urgent?",
+    "nts_code": "U3",
+    "split": "eval",
+    "output_en": {
+      "triage": "Relevant medical risk or strong humane reasons; evaluation within hours.",
+      "rationale": "Vomiting and diarrhoea with reduced urine output suggest risk of dehydration in a young child.",
+      "advice": "Offer small frequent sips of oral rehydration solution and contact the GP the same day; seek emergency care if the child becomes very drowsy or stops drinking."
+    }
+  },
+  {
+    "id": "case_089",
+    "question_en": "For three days I have had a painful, swollen big toe with redness after hitting it, but I can still walk. Is this urgent?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Minor toe trauma with preserved walking ability is unlikely to require emergency treatment.",
+      "advice": "Use rest, ice and pain relief; visit the GP if pain persists or deformity is suspected."
+    }
+  },
+  {
+    "id": "case_090",
+    "question_en": "For one day I have had mild pain in my ear after swimming, but no fever or discharge. Can I wait and see?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Mild ear discomfort after swimming may represent irritation or early swimmer's ear and is not immediately dangerous.",
+      "advice": "Keep the ear dry and avoid inserting objects; see the GP if pain increases, discharge appears or fever develops."
+    }
+  },
+  {
+    "id": "case_091",
+    "question_en": "For a week I have had cracked lips and dry skin, but no other symptoms. Do I need a doctor?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Dry skin and chapped lips are benign and usually related to weather or mild irritation.",
+      "advice": "Use moisturisers and lip balm; discuss with the GP later if persistent or associated with other symptoms."
+    }
+  },
+  {
+    "id": "case_092",
+    "question_en": "For three days I have had mild constipation but no abdominal pain or vomiting. Is this something I can manage myself?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Short-duration constipation without pain or vomiting is usually functional and harmless.",
+      "advice": "Increase fibre, fluids and activity; see the GP if constipation persists or new symptoms appear."
+    }
+  },
+  {
+    "id": "case_093",
+    "question_en": "My 2-year-old has a small, painless lump in the neck that has been there for a few weeks and does not seem to grow. Is this urgent?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Small, stable lymph nodes in children are common and usually reactive, but should be checked at some point.",
+      "advice": "Arrange a routine GP appointment; seek urgent help if the node rapidly enlarges, becomes hard or is accompanied by fever or weight loss."
+    }
+  },
+  {
+    "id": "case_094",
+    "question_en": "For two weeks I have had occasional mild nosebleeds that stop within a few minutes, without other symptoms. Is this something to see the GP about urgently?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Short, self-limiting epistaxis is usually benign but may warrant evaluation.",
+      "advice": "Pinch the soft part of the nose during bleeding; book a routine GP visit to discuss if it continues."
+    }
+  },
+  {
+    "id": "case_095",
+    "question_en": "For a few months I have felt down and enjoy things less, but I still function at work and have no suicidal thoughts. Is this urgent?",
+    "nts_code": "U4",
+    "split": "eval",
+    "output_en": {
+      "triage": "Very small risk of harm; evaluation within 24 hours is sufficient.",
+      "rationale": "Persistent low mood without acute risk still deserves attention but is not an emergency.",
+      "advice": "Schedule a GP appointment to discuss mood and possible support options; seek urgent help if suicidal thoughts arise."
+    }
+  },
+  {
+    "id": "case_096",
+    "question_en": "My 6-year-old has a mild, itchy rash after playing in grass, but no breathing problems or swelling. Can we just treat it at home?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Mild urticaria without airway involvement or systemic illness is not dangerous.",
+      "advice": "Use a cool compress and consider an oral antihistamine; contact the GP if rash worsens or breathing problems develop."
+    }
+  },
+  {
+    "id": "case_097",
+    "question_en": "For one day I have had a bit of eye irritation after working long hours at the computer, with no redness or vision loss. Is this urgent?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Eye strain from screen use is common and not harmful.",
+      "advice": "Take regular breaks and use artificial tears if needed; see an optician or GP later if symptoms persist."
+    }
+  },
+  {
+    "id": "case_098",
+    "question_en": "Sometimes I have mild leg cramps at night, but stretching relieves them. I have no swelling or pain during the day. Is this urgent?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Nocturnal leg cramps without other signs are usually benign.",
+      "advice": "Stretch before bed, stay hydrated; discuss with the GP at a routine visit if frequent or very bothersome."
+    }
+  },
+  {
+    "id": "case_099",
+    "question_en": "For two days I have had a hoarse voice after shouting at a football match, but no breathing problems or pain. Is this something that needs a doctor?",
+    "nts_code": "U5",
+    "split": "eval",
+    "output_en": {
+      "triage": "No realistic risk of harm; suitable for self-care or non-urgent GP contact.",
+      "rationale": "Acute hoarseness after vocal strain is usually self-limiting and not dangerous.",
+      "advice": "Rest your voice, avoid smoking and drink warm fluids; see the GP if hoarseness persists longer than a few weeks."
+    }
+  }
+]

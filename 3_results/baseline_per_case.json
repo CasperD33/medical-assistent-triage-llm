@@ -1,0 +1,618 @@
+[
+  {
+    "id": "case_002",
+    "question": "My baby suddenly became limp, is not breathing and looks blue around the lips. What should I do right now?",
+    "true": "U0",
+    "pred": "U0",
+    "correct": true
+  },
+  {
+    "id": "case_005",
+    "question": "My 4-year-old is wheezing badly, breathing very fast and pulling with the chest muscles. Her lips look a bit blue. What should I do?",
+    "true": "U1",
+    "pred": "U1",
+    "correct": true
+  },
+  {
+    "id": "case_006",
+    "question": "I accidentally took a large overdose of my insulin and now I feel dizzy, sweaty and confused. Is this directly dangerous?",
+    "true": "U1",
+    "pred": "U3",
+    "correct": false
+  },
+  {
+    "id": "case_007",
+    "question": "My pregnant wife, 34 weeks, suddenly has heavy vaginal bleeding and strong abdominal pain. Is this an emergency situation?",
+    "true": "U1",
+    "pred": "U1",
+    "correct": true
+  },
+  {
+    "id": "case_008",
+    "question": "My grandfather with COPD is suddenly extremely short of breath, can hardly speak and looks very pale. Should we call an ambulance?",
+    "true": "U1",
+    "pred": "U2",
+    "correct": false
+  },
+  {
+    "id": "case_009",
+    "question": "My 10-year-old was stung by a wasp and within minutes developed swelling of the face, hives and trouble breathing. Is this life-threatening?",
+    "true": "U1",
+    "pred": "U2",
+    "correct": false
+  },
+  {
+    "id": "case_012",
+    "question": "I suddenly have strong pain and swelling in my calf after a long flight, and it feels warm. Should I be concerned?",
+    "true": "U2",
+    "pred": "U3",
+    "correct": false
+  },
+  {
+    "id": "case_013",
+    "question": "My vision in one eye suddenly became very blurry over the last hour without pain. Is this something that needs quick attention?",
+    "true": "U2",
+    "pred": "U2",
+    "correct": true
+  },
+  {
+    "id": "case_014",
+    "question": "For a few hours I have had severe flank pain on the right side, radiating to the groin, and I feel nauseous. Is this something that should be checked today?",
+    "true": "U2",
+    "pred": "U3",
+    "correct": false
+  },
+  {
+    "id": "case_017",
+    "question": "I have had a very painful, red and swollen big toe joint since this morning and can hardly walk. Could this be urgent?",
+    "true": "U3",
+    "pred": "U3",
+    "correct": true
+  },
+  {
+    "id": "case_018",
+    "question": "My mother, 80, has been confused since this morning and is not acting like herself. She had a slight fever last night. Is this urgent?",
+    "true": "U3",
+    "pred": "U3",
+    "correct": true
+  },
+  {
+    "id": "case_019",
+    "question": "For two days I have had severe pain and swelling around a tooth with some facial swelling and difficulty opening my mouth fully. Should I be seen today?",
+    "true": "U3",
+    "pred": "U3",
+    "correct": true
+  },
+  {
+    "id": "case_022",
+    "question": "For five days I have had pain in my knee after twisting it, but I can still walk, although it hurts. Is this urgent?",
+    "true": "U4",
+    "pred": "U4",
+    "correct": true
+  },
+  {
+    "id": "case_023",
+    "question": "My 6-year-old has had an itchy rash on both arms for two days but no fever or illness. Does this need to be seen today?",
+    "true": "U4",
+    "pred": "U4",
+    "correct": true
+  },
+  {
+    "id": "case_024",
+    "question": "For two weeks I have had intermittent heartburn after meals but no chest pain at rest or breathing problems. Should I talk to my GP?",
+    "true": "U4",
+    "pred": "U4",
+    "correct": true
+  },
+  {
+    "id": "case_027",
+    "question": "For a few days I have had a mild tension headache that improves with paracetamol. I have no fever or neurological symptoms. Is this something to worry about?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_028",
+    "question": "My child, 8, has a small itchy insect bite on the leg with a red area of about 2 cm, no fever. Does this need a doctor?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_029",
+    "question": "For two days I have had mild diarrhoea but no blood in the stool, no fever and I can drink normally. Is this something I can manage myself?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_030",
+    "question": "My neighbour, 68, suddenly collapsed and is breathing but very shallow and not responding properly after a fall down the stairs. What should we do?",
+    "true": "U1",
+    "pred": "U1",
+    "correct": true
+  },
+  {
+    "id": "case_031",
+    "question": "My father with known heart failure suddenly gained a lot of weight over a few days and is now very short of breath at rest. Is this an emergency?",
+    "true": "U1",
+    "pred": "U2",
+    "correct": false
+  },
+  {
+    "id": "case_032",
+    "question": "My 2-year-old suddenly has a high-pitched stridor and great difficulty breathing after putting something in the mouth. Is this life-threatening?",
+    "true": "U1",
+    "pred": "U1",
+    "correct": true
+  },
+  {
+    "id": "case_033",
+    "question": "My relative with diabetes is now drowsy, has fast breathing and smells of acetone. He has been unwell for a couple of days. Is this an emergency?",
+    "true": "U1",
+    "pred": "U2",
+    "correct": false
+  },
+  {
+    "id": "case_034",
+    "question": "My 5-year-old has a very stiff neck, high fever and seems very ill and sensitive to light. Is this extremely urgent?",
+    "true": "U1",
+    "pred": "U2",
+    "correct": false
+  },
+  {
+    "id": "case_035",
+    "question": "For one day I have had burning chest pain when I breathe deeply after a long car ride, and I feel a bit short of breath. Should I be seen quickly?",
+    "true": "U2",
+    "pred": "U3",
+    "correct": false
+  },
+  {
+    "id": "case_036",
+    "question": "My father, 74, has had a fever for three days, is coughing up green sputum and is now breathing faster than normal. Is this urgent?",
+    "true": "U2",
+    "pred": "U3",
+    "correct": false
+  },
+  {
+    "id": "case_037",
+    "question": "I am 30 weeks pregnant and have had a headache and visual disturbances with some upper abdominal pain since this afternoon. Is this serious?",
+    "true": "U2",
+    "pred": "U3",
+    "correct": false
+  },
+  {
+    "id": "case_038",
+    "question": "Since yesterday I have intense pain and swelling in the scrotum with fever and feel quite sick. Do I need to be seen urgently?",
+    "true": "U2",
+    "pred": "U2",
+    "correct": true
+  },
+  {
+    "id": "case_039",
+    "question": "My 10-year-old has had abdominal pain, vomiting and fever since last night and now lies very still because moving hurts. Is this urgent?",
+    "true": "U2",
+    "pred": "U3",
+    "correct": false
+  },
+  {
+    "id": "case_040",
+    "question": "I have had a painful, red and warm area on my lower leg for a day, which is slowly expanding. I feel a bit feverish. Should I call the doctor today?",
+    "true": "U3",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_041",
+    "question": "My adolescent son has had suicidal thoughts and says he sometimes thinks about ending his life, although he has no concrete plan. Is this urgent?",
+    "true": "U3",
+    "pred": "U3",
+    "correct": true
+  },
+  {
+    "id": "case_042",
+    "question": "For a few hours I have had an increasingly painful, red eye with blurred vision and halos around lights. Is this urgent?",
+    "true": "U3",
+    "pred": "U3",
+    "correct": true
+  },
+  {
+    "id": "case_043",
+    "question": "My 1-year-old has had a fever since this morning, is a bit less active but still drinks and plays sometimes. Is this very urgent?",
+    "true": "U3",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_044",
+    "question": "For four days I have had pain when urinating and needing to go often, but no fever or flank pain. Is this something that can wait a day?",
+    "true": "U4",
+    "pred": "U3",
+    "correct": false
+  },
+  {
+    "id": "case_045",
+    "question": "I have had mild pain in my lower back for a week after lifting something heavy, but no numbness or bladder problems. Is this urgent?",
+    "true": "U4",
+    "pred": "U3",
+    "correct": false
+  },
+  {
+    "id": "case_046",
+    "question": "For about a month I have had itching between my toes with some scaling of the skin. I feel fine otherwise. Do I need a doctor?",
+    "true": "U4",
+    "pred": "U4",
+    "correct": true
+  },
+  {
+    "id": "case_047",
+    "question": "I often feel tired over the last two months, but I sleep reasonably well and have no pain or other symptoms. Is this urgent?",
+    "true": "U4",
+    "pred": "U4",
+    "correct": true
+  },
+  {
+    "id": "case_048",
+    "question": "For several months I have been waking up at night to urinate two or three times, but I have no pain or fever. Should I talk to my GP?",
+    "true": "U4",
+    "pred": "U3",
+    "correct": false
+  },
+  {
+    "id": "case_049",
+    "question": "For one day I have had a mild sore throat and runny nose, but no fever and I can eat and drink normally. Is this just a cold?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_050",
+    "question": "I have had mild stomach cramps and a bit of loose stool since yesterday evening after eating out, but I am not vomiting and can drink. Is this something to manage myself?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_051",
+    "question": "My 10-year-old has had a dry cough mainly at night for three days but no fever or breathing difficulty. Is this urgent?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_052",
+    "question": "For two days I have had some muscle aches after starting a new workout routine, but no fever or other symptoms. Should I be worried?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_053",
+    "question": "I occasionally have brief palpitations that last a few seconds and then go away. I feel fine otherwise. Is this urgent?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_054",
+    "question": "My child, 4, has a small wart on the finger for a few weeks but no pain or other problems. Do we need to see a doctor?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_055",
+    "question": "My 70-year-old mother suddenly has very unequal pupils and is very sleepy after a car accident. Is this extremely urgent?",
+    "true": "U1",
+    "pred": "U2",
+    "correct": false
+  },
+  {
+    "id": "case_056",
+    "question": "My partner suddenly cannot breathe well after eating peanuts and her lips are swelling rapidly. Is this life-threatening?",
+    "true": "U1",
+    "pred": "U1",
+    "correct": true
+  },
+  {
+    "id": "case_057",
+    "question": "My grandfather, who is on blood thinners, has passed a large amount of fresh red blood in the stool and feels dizzy. Is this an emergency?",
+    "true": "U1",
+    "pred": "U2",
+    "correct": false
+  },
+  {
+    "id": "case_058",
+    "question": "For half an hour I have had crushing chest pain radiating to my left arm and jaw, with nausea and sweating. Is this an emergency?",
+    "true": "U1",
+    "pred": "U3",
+    "correct": false
+  },
+  {
+    "id": "case_059",
+    "question": "My brother suddenly cannot move his left leg and has drooping on one side of his face. It started 20 minutes ago. Is this extremely urgent?",
+    "true": "U1",
+    "pred": "U1",
+    "correct": true
+  },
+  {
+    "id": "case_060",
+    "question": "For a few hours I have had cramping pain in the lower abdomen with vaginal bleeding in early pregnancy (8 weeks). I feel a bit dizzy. Is this urgent?",
+    "true": "U2",
+    "pred": "U3",
+    "correct": false
+  },
+  {
+    "id": "case_061",
+    "question": "My 9-year-old has had fever for three days and now complains of pain in the right side of the chest when breathing, with rapid breathing. Is this urgent?",
+    "true": "U2",
+    "pred": "U2",
+    "correct": true
+  },
+  {
+    "id": "case_062",
+    "question": "Since this morning I have had severe pain and redness in one eye after grinding metal without eye protection. My vision is blurry. Is this urgent?",
+    "true": "U2",
+    "pred": "U2",
+    "correct": true
+  },
+  {
+    "id": "case_063",
+    "question": "My child, 5, has had a fever and is pulling at the ear with crying for several hours. He drinks less but still pees. Is this urgent?",
+    "true": "U3",
+    "pred": "U3",
+    "correct": true
+  },
+  {
+    "id": "case_064",
+    "question": "For one day I have had a painful, red and warm finger with a small collection of pus near the nail. Do I need to see the GP today?",
+    "true": "U3",
+    "pred": "U3",
+    "correct": true
+  },
+  {
+    "id": "case_065",
+    "question": "My grandfather has suddenly become more confused today and is not taking his medication properly. He has no fever. Is this urgent?",
+    "true": "U3",
+    "pred": "U3",
+    "correct": true
+  },
+  {
+    "id": "case_066",
+    "question": "For two days my 15-year-old daughter has had severe abdominal pain during menstruation, worse than normal, but she has no fever or vomiting. Is this urgent?",
+    "true": "U3",
+    "pred": "U3",
+    "correct": true
+  },
+  {
+    "id": "case_067",
+    "question": "For a week I have had mild pain and stiffness in my shoulder especially in the morning, but it improves during the day. Is this urgent?",
+    "true": "U4",
+    "pred": "U4",
+    "correct": true
+  },
+  {
+    "id": "case_068",
+    "question": "For three weeks I have had small amounts of blood on the toilet paper after bowel movements, with some itching. No weight loss or pain. Should I see my GP?",
+    "true": "U4",
+    "pred": "U3",
+    "correct": false
+  },
+  {
+    "id": "case_069",
+    "question": "For six months I have had occasional heartburn at night, relieved by antacids, with no weight loss or swallowing problems. Is this urgent?",
+    "true": "U4",
+    "pred": "U4",
+    "correct": true
+  },
+  {
+    "id": "case_070",
+    "question": "I have had a small lump under the skin on my back for months that hasn't changed and does not hurt. Do I need to see a doctor soon?",
+    "true": "U4",
+    "pred": "U4",
+    "correct": true
+  },
+  {
+    "id": "case_071",
+    "question": "For one day I have had a stuffy nose and mild sore throat, but I am otherwise fine. Can I just treat this myself?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_072",
+    "question": "My 7-year-old scraped his knee outside. It is a shallow wound with a bit of dirt, but he is otherwise fine. Do we need a doctor?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_073",
+    "question": "For two days I have had mild itching on my forearms after using a new soap. No swelling or breathing problems. Can I handle this myself?",
+    "true": "U5",
+    "pred": "U5",
+    "correct": true
+  },
+  {
+    "id": "case_074",
+    "question": "Sometimes I feel a brief sharp pain in my chest when I take a deep breath, but it lasts only a second and then disappears. I feel fine otherwise. Is this urgent?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_075",
+    "question": "My 3-year-old has a small bruise on the leg after bumping into a table, but is walking normally and plays as usual. Is this a reason to see a doctor?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_076",
+    "question": "For two days I have had a gradually appearing red ring around a tick bite from last week, but I feel fine. Is this urgent?",
+    "true": "U4",
+    "pred": "U4",
+    "correct": true
+  },
+  {
+    "id": "case_077",
+    "question": "For a month I have been more short of breath when climbing stairs, but I have no chest pain or cough. Is this urgently dangerous?",
+    "true": "U4",
+    "pred": "U3",
+    "correct": false
+  },
+  {
+    "id": "case_078",
+    "question": "For several weeks I have had a dry cough, but I smoke and have no fever or weight loss. Is this something that can wait?",
+    "true": "U4",
+    "pred": "U4",
+    "correct": true
+  },
+  {
+    "id": "case_079",
+    "question": "My 12-year-old has had mild knee pain after sports for a week, but there is no swelling and he can play. Do we need a doctor?",
+    "true": "U4",
+    "pred": "U4",
+    "correct": true
+  },
+  {
+    "id": "case_080",
+    "question": "For one day I have had a fever and sore throat, but I can swallow and have no breathing problems. I am 25 and otherwise healthy. Is this self-care?",
+    "true": "U5",
+    "pred": "U5",
+    "correct": true
+  },
+  {
+    "id": "case_081",
+    "question": "My 16-year-old has mild acne on the face that bothers him, but there is no pain or infection. Is this urgent?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_082",
+    "question": "Sometimes I feel dizzy when I stand up quickly, but it goes away in seconds. Is this something I should see a doctor for urgently?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_083",
+    "question": "My 5-year-old has had a mild cough and runny nose for four days but is playing and eating normally. Is this just a cold?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_084",
+    "question": "I sometimes feel a bit anxious and get sweaty hands before exams, but it goes away afterwards. Is this a medical emergency?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_085",
+    "question": "My grandmother, who lives alone, did not answer the phone all day and when we visited she was lying on the floor, awake but confused and unable to get up. Is this urgent?",
+    "true": "U1",
+    "pred": "U2",
+    "correct": false
+  },
+  {
+    "id": "case_086",
+    "question": "My partner with asthma is having a severe attack, speaking only in single words and using the rescue inhaler without improvement. Is this life-threatening?",
+    "true": "U1",
+    "pred": "U2",
+    "correct": false
+  },
+  {
+    "id": "case_087",
+    "question": "For two days I have had swelling and pain in my calf after a long bus ride, but I have no shortness of breath. Is this something that needs urgent attention?",
+    "true": "U2",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_088",
+    "question": "My 4-year-old has had vomiting and diarrhoea since last night and now has fewer wet nappies, but is still somewhat alert. Is this urgent?",
+    "true": "U3",
+    "pred": "U3",
+    "correct": true
+  },
+  {
+    "id": "case_089",
+    "question": "For three days I have had a painful, swollen big toe with redness after hitting it, but I can still walk. Is this urgent?",
+    "true": "U4",
+    "pred": "U4",
+    "correct": true
+  },
+  {
+    "id": "case_090",
+    "question": "For one day I have had mild pain in my ear after swimming, but no fever or discharge. Can I wait and see?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_091",
+    "question": "For a week I have had cracked lips and dry skin, but no other symptoms. Do I need a doctor?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_092",
+    "question": "For three days I have had mild constipation but no abdominal pain or vomiting. Is this something I can manage myself?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_093",
+    "question": "My 2-year-old has a small, painless lump in the neck that has been there for a few weeks and does not seem to grow. Is this urgent?",
+    "true": "U4",
+    "pred": "U4",
+    "correct": true
+  },
+  {
+    "id": "case_094",
+    "question": "For two weeks I have had occasional mild nosebleeds that stop within a few minutes, without other symptoms. Is this something to see the GP about urgently?",
+    "true": "U4",
+    "pred": "U4",
+    "correct": true
+  },
+  {
+    "id": "case_095",
+    "question": "For a few months I have felt down and enjoy things less, but I still function at work and have no suicidal thoughts. Is this urgent?",
+    "true": "U4",
+    "pred": "U4",
+    "correct": true
+  },
+  {
+    "id": "case_096",
+    "question": "My 6-year-old has a mild, itchy rash after playing in grass, but no breathing problems or swelling. Can we just treat it at home?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_097",
+    "question": "For one day I have had a bit of eye irritation after working long hours at the computer, with no redness or vision loss. Is this urgent?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_098",
+    "question": "Sometimes I have mild leg cramps at night, but stretching relieves them. I have no swelling or pain during the day. Is this urgent?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  },
+  {
+    "id": "case_099",
+    "question": "For two days I have had a hoarse voice after shouting at a football match, but no breathing problems or pain. Is this something that needs a doctor?",
+    "true": "U5",
+    "pred": "U4",
+    "correct": false
+  }
+]
