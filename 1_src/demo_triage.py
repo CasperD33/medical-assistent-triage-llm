@@ -4,7 +4,7 @@ def main():
     all_cases = load_cases()
     train_cases, _ = split_cases(all_cases)
 
-    print("Triage demo (type 'quit' to stop)\n")
+    print("Triage demo (type 'quit', 'q' or 'exit' to stop)\n")
 
     while True:
         text = input("Describe your symptoms: ")
