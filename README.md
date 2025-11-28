@@ -59,19 +59,19 @@ Example Entry:
 ## Repository Structure
 
 It is organized as follows:
-1_src/ 
-    demo_triage.py # demo of the bot works
-    eval_triage.py # evaluation scripts, such as the metrics, confusion matrices, JSON logs
-2_data/ 
-    processed/ 
-        synthetic_patient_triage.json # synthetic dataset partially based on HealthCareMagic dataset (kaggle)
-3_results/
-    confusion_baseline.png  # confusion matrix baseline model
-    confusion_fewshot.png   # confusion matrix fewshot model
-    baseline_classification_report.txt #precision    recall  f1-score   support for baseline
-    fewshot_classification_report.txt #precision    recall  f1-score   support for fewshot 
-    baseline_per_case.json # evaluation per case with true label and output label
-    fewshot_per_case.json # evaluation per case with true label and output label
+- 1_src/
+    - demo_triage.py # demo of the bot works
+    - eval_triage.py # evaluation scripts, such as the metrics, confusion matrices, JSON logs
+- 2_data/ 
+    - processed/ 
+        - synthetic_patient_triage.json # synthetic dataset partially based on HealthCareMagic dataset (kaggle)
+- 3_results:
+    - confusion_baseline.png  # confusion matrix baseline model
+    - confusion_fewshot.png   # confusion matrix fewshot model
+    - baseline_classification_report.txt #precision    recall  f1-score   support for baseline
+    - fewshot_classification_report.txt #precision    recall  f1-score   support for fewshot 
+    - baseline_per_case.json # evaluation per case with true label and output label
+    - fewshot_per_case.json # evaluation per case with true label and output label
 
 
 ## Future Work
